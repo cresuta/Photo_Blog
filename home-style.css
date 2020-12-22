@@ -7,15 +7,15 @@ body {
 
 img {
     width: 150px;
-    height: 150px;
+    height: auto;
 }
 
 div {
     padding: 10px;
 }
 
-h2 {
-    font-size: 2em;
+img:hover {
+    transform: scale(1.2,1.2);
 }
 
 /* Winter */
@@ -28,13 +28,6 @@ div:nth-of-type(1){
     background-color: #90e0ef;
 }
 
-div:nth-of-type(1) h2 {
-    display: inline;
-    position: relative;
-    top: -138px;
-    left: 400px;
-} 
-
 /* Spring */
 img:nth-of-type(2) {
     display: block;
@@ -45,13 +38,6 @@ div:nth-of-type(2){
     background-color: #ffc6ff;
 }
 
-div:nth-of-type(2) h2 {
-    display: inline;
-    position: relative;
-    top: 150px;
-    left: 300px;
-}
-
 /* Summer */
 img:nth-of-type(3) {
     display: block;
@@ -60,12 +46,6 @@ img:nth-of-type(3) {
 
 div:nth-of-type(3){
     background-color: #ffdd00;
-}
-
-div:nth-of-type(3) h2 {
-    display: inline;
-    position: relative;
-    top: -140px;
 }
 
 /* Fall */
