@@ -1,3 +1,55 @@
+body {
+    margin: 0;
+}
+
 img {
     width: 150px;
+}
+
+div {
+    padding: 10px;
+}
+
+/* Winter */
+img:nth-of-type(1) {
+    display: block;
+    margin: 50px auto;
+}
+
+img:nth-of-type(1):hover {
+    transform: ;
+}
+
+div:nth-of-type(1){
+    background-color: #90e0ef;
+}
+
+/* Spring */
+img:nth-of-type(2) {
+    display: block;
+    margin: 50px auto;
+}
+
+div:nth-of-type(2){
+    background-color: #ffc6ff;
+}
+
+/* Summer */
+img:nth-of-type(3) {
+    display: block;
+    margin: 50px auto;
+}
+
+div:nth-of-type(3){
+    background-color: #ffdd00;
+}
+
+/* Fall */
+img:nth-of-type(4) {
+    display: block;
+    margin: 50px auto;
+}
+
+div:nth-of-type(4) {
+    background-color: #ddb892;
 }
