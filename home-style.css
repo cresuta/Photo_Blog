@@ -14,7 +14,12 @@ div {
     padding: 10px;
 }
 
+a:hover {
+    cursor: auto;
+}
+
 img:hover {
+    cursor: pointer;
     transform: scale(1.2,1.2);
 }
 
